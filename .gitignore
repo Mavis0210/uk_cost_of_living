@@ -1,0 +1,29 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# dbt
+target/
+dbt_packages/
+logs/
+.user.yml
+
+# Data files (raw CSVs — too large for GitHub)
+data/raw/
+
+# pgAdmin
+*.db
+
+# VS Code / Codespaces
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

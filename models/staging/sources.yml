@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: cost_of_living
+    schema: cost_of_living
+    tables:
+      - name: raw_cpih
+      - name: raw_fuel_prices

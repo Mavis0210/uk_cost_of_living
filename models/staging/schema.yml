@@ -1,0 +1,26 @@
+version: 2
+
+models:
+  - name: stg_cpih
+    columns:
+      - name: month_date
+        tests:
+          - not_null
+      - name: index_value
+        tests:
+          - not_null
+      - name: category_code
+        tests:
+          - not_null
+
+  - name: stg_fuel_prices
+    columns:
+      - name: price_date
+        tests:
+          - not_null
+      - name: petrol_pump_price_pence
+        tests:
+          - not_null
+      - name: diesel_pump_price_pence
+        tests:
+          - not_null

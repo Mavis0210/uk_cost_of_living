@@ -1,0 +1,14 @@
+# Data ingestion
+pandas
+requests
+openpyxl
+sqlalchemy
+psycopg2-binary
+
+# dbt
+dbt-postgres
+
+# EDA & visualisation
+matplotlib
+seaborn
+jupyter
