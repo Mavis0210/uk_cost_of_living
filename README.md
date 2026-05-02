@@ -121,6 +121,7 @@ uk_cost_of_living/
 
 ### 1. Clone the repo
 git clone https://github.com/Mavis0210/uk_cost_of_living.git
+
 cd uk_cost_of_living
 
 
